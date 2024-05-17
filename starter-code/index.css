@@ -1,0 +1,17 @@
+.btn-border-no-radius {
+	border-radius: 0;
+}
+
+#navbarCanvas {
+	width: 70%;
+	top: 10%;
+}
+
+.offcanvas-backdrop {
+	top: 10%;
+}
+
+.show a {
+	color: white;
+	transition: none;
+}

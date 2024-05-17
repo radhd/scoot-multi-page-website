@@ -9,15 +9,64 @@
 			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
 			crossorigin="anonymous"
 		/>
+		<link rel="stylesheet" href="index.css" />
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 			crossorigin="anonymous"
 			defer
 		></script>
-		<title>Document</title>
+		<script src="index.js" defer></script>
+		<title>Scoot Homepage</title>
 	</head>
 	<body>
-		<h1>hello</h1>
+		<nav class="navbar navbar-expand-md fixed-top bg-white">
+			<div class="container px-4">
+				<button
+					class="navbar-toggler"
+					role="button"
+					data-bs-toggle="offcanvas"
+					style="border: none; box-shadow: none"
+					data-bs-target="#navbarCanvas"
+					id="burgerMenu"
+				>
+					<img src="assets/icons/hamburger.svg" alt="" />
+				</button>
+
+				<a href="#" class="navbar-brand mx-auto"
+					><img src="assets/logo.svg" height="20px" alt=""
+				/></a>
+
+				<div
+					class="offcanvas offcanvas-start text-bg-dark"
+					tabindex="-1"
+					id="navbarCanvas"
+					aria-labelledby="offcanvasLabel"
+				>
+					<div
+						class="offcanvas-body d-flex flex-column flex-md-row px-4"
+					>
+						<ul class="navbar-nav flex-grow-1">
+							<li class="nav-item">
+								<a href="" class="nav-link">About</a>
+							</li>
+							<li class="nav-item">
+								<a href="" class="nav-link">Location</a>
+							</li>
+							<li class="nav-item">
+								<a href="" class="nav-link">Careers</a>
+							</li>
+						</ul>
+
+						<button
+							style="color: white"
+							class="btn btn-warning btn-border-no-radius"
+						>
+							Get Scootin
+						</button>
+					</div>
+				</div>
+			</div>
+		</nav>
 	</body>
 </html>
