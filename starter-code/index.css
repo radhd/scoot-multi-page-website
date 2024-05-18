@@ -1,3 +1,6 @@
+:root {
+}
+
 .btn-border-no-radius {
 	border-radius: 0;
 }
@@ -13,5 +16,16 @@
 
 .show a {
 	color: white;
-	transition: none;
+}
+
+/* Hero */
+#hero {
+	background-image: url("assets/images/home-hero-mobile.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+section {
+	padding-bottom: 7.5rem;
 }
