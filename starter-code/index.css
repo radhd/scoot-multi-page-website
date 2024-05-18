@@ -1,5 +1,72 @@
+/* Colors */
 :root {
+	--custom-yellow: rgb(252, 183, 43);
+	--custom-dark-navy: rgb(73, 85, 103);
+	--custom-dim-grey: rgb(147, 156, 170);
+	--custom-light-grey: rgb(229, 236, 244);
+	--custom-snow: rgb(242, 245, 249);
+	--custom-light-yellow: rgb(255, 244, 223);
 }
+
+/* Typography */
+
+.space-mono-regular {
+	font-family: "Space Mono", monospace;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.space-mono-bold {
+	font-family: "Space Mono", monospace;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.h-text-size-h1-sm {
+	font-family: "Space Mono", monospace;
+	font-size: 2.5rem;
+	line-height: 40px;
+	letter-spacing: -1.7857142686843872px;
+	text-align: center;
+}
+
+.h-text-size-h2 {
+	font-family: "Space Mono", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 3rem;
+	line-height: 48px;
+	letter-spacing: -2.14px;
+}
+
+.h-text-size-h3 {
+	font-family: "Space Mono", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2.5rem;
+	line-height: 48px;
+	letter-spacing: -1.79px;
+}
+
+.h-text-size-h4 {
+	font-family: "Space Mono", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.5rem;
+	line-height: 28px;
+	letter-spacing: -1.07px;
+}
+
+.lexend-deca-400 {
+	font-family: "Lexend Deca", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 25px;
+	font-size: 0.9375rem;
+}
+
+/* Navigation */
 
 .btn-border-no-radius {
 	border-radius: 0;
@@ -19,6 +86,7 @@
 }
 
 /* Hero */
+
 #hero {
 	background-image: url("assets/images/home-hero-mobile.jpg");
 	background-repeat: no-repeat;
@@ -26,6 +94,23 @@
 	background-position: center;
 }
 
+/* Sections */
+
 section {
 	padding-bottom: 7.5rem;
+}
+
+/* Button hover */
+
+.btn.btn-warning {
+	margin-top: 2rem;
+}
+
+.btn.btn-warning:hover {
+	background-color: transparent !important;
+	color: var(--custom-yellow) !important;
+}
+
+.p-32 {
+	padding: 0 32px;
 }
