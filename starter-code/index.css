@@ -100,10 +100,14 @@ section {
 	padding-bottom: 7.5rem;
 }
 
+.p-32 {
+	padding: 0 2rem;
+}
+
 /* Button hover */
 
-.btn.btn-warning {
-	margin-top: 2rem;
+.btn-brand {
+	margin-top: 2.125rem;
 }
 
 .btn.btn-warning:hover {
@@ -111,6 +115,48 @@ section {
 	color: var(--custom-yellow) !important;
 }
 
-.p-32 {
-	padding: 0 32px;
+.white-circles {
+	display: none;
+}
+
+.right-arrow {
+	right: 55%;
+	padding-bottom: 2.125rem;
+}
+
+@media (min-width: 768px) {
+	.gap-md {
+		gap: 2rem;
+	}
+
+	#hero {
+		background-image: url("assets/images/home-hero-tablet.jpg");
+		background-position: center;
+		background-size: contain;
+		overflow: hidden;
+	}
+
+	.p-32 {
+		padding: 0 4.5625rem;
+	}
+
+	.h-text-size-h1-sm {
+		font-size: 3.5rem;
+	}
+
+	#hero {
+		min-height: 53vh !important;
+	}
+
+	.w-50 {
+		width: 32% !important;
+	}
+
+	.white-circles {
+		display: block;
+		width: 234px;
+		height: 63px;
+		right: -4%;
+		bottom: 7%;
+	}
 }
