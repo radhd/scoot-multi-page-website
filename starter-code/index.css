@@ -43,9 +43,9 @@
 	font-family: "Space Mono", sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 2.5rem;
 	line-height: 48px;
 	letter-spacing: -1.79px;
+	color: var(--custom-dark-navy);
 }
 
 .h-text-size-h4 {
@@ -99,10 +99,14 @@
 /* Sections */
 
 section {
-	padding-bottom: 7.5rem;
+	margin-bottom: 7.5rem;
 }
 
 .p-32 {
+	padding: 0 2rem;
+}
+
+.px-section {
 	padding: 0 2rem;
 }
 
@@ -132,6 +136,10 @@ section {
 }
 
 @media (min-width: 768px) {
+	.px-section {
+		padding: 0 6.0625rem;
+	}
+
 	.gap-md {
 		gap: 2rem;
 	}
@@ -154,6 +162,17 @@ section {
 		height: 63px;
 		right: -4%;
 		bottom: 7%;
+	}
+
+	/* Gray line in pick section */
+
+	.dark-gray-line {
+		width: 15px;
+		height: 513px;
+		background-color: #e5ecf4;
+		left: 18%;
+		top: -22%;
+		z-index: -1;
 	}
 }
 
