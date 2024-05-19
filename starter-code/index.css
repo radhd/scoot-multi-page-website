@@ -92,6 +92,8 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	min-height: 650px;
+	overflow: hidden;
 }
 
 /* Sections */
@@ -110,6 +112,11 @@ section {
 	margin-top: 2.125rem;
 }
 
+.get-scootin-btn {
+	width: 180px;
+	height: 53px;
+}
+
 .btn.btn-warning:hover {
 	background-color: transparent !important;
 	color: var(--custom-yellow) !important;
@@ -121,7 +128,7 @@ section {
 
 .right-arrow {
 	right: 55%;
-	padding-bottom: 2.125rem;
+	bottom: 5%;
 }
 
 @media (min-width: 768px) {
@@ -131,9 +138,6 @@ section {
 
 	#hero {
 		background-image: url("assets/images/home-hero-tablet.jpg");
-		background-position: center;
-		background-size: contain;
-		overflow: hidden;
 	}
 
 	.p-32 {
@@ -144,19 +148,52 @@ section {
 		font-size: 3.5rem;
 	}
 
-	#hero {
-		min-height: 53vh !important;
-	}
-
-	.w-50 {
-		width: 32% !important;
-	}
-
 	.white-circles {
 		display: block;
 		width: 234px;
 		height: 63px;
 		right: -4%;
 		bottom: 7%;
+	}
+}
+
+@media (min-width: 1440px) {
+	#hero {
+		background-image: url("assets/images/home-hero-desktop.jpg");
+		background-position: right;
+	}
+
+	.yellow-line {
+		margin-bottom: -11%;
+	}
+
+	.right-arrow {
+		left: 47%;
+		bottom: 24%;
+	}
+
+	.white-circles {
+		display: block;
+		right: -3.5%;
+		bottom: 25%;
+	}
+
+	.hero-main-text {
+		text-align: start;
+		margin-top: 153px;
+	}
+
+	.hero-main-text h1 {
+		text-align: start;
+		width: 500px;
+		height: 112px;
+		margin-left: -10%;
+	}
+
+	.hero-main-text p {
+		width: 400px;
+		height: 100px;
+		font-size: 0, 9375rem;
+		margin-left: -3%;
 	}
 }
