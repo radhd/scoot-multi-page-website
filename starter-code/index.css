@@ -148,7 +148,36 @@ section {
 	bottom: 5%;
 }
 
-.card-body h2 {
+/* Cards  */
+
+.first-card-arrow {
+	width: 100%;
+	min-height: 138px;
+	background-image: url("assets/patterns/left-downward-arrow.svg");
+	background-repeat: no-repeat;
+	top: 6%;
+	z-index: 1;
+}
+
+.second-card-arrow {
+	width: 100%;
+	min-height: 138px;
+	background-image: url("assets/patterns/right-arrow.svg");
+	background-repeat: no-repeat;
+	background-position: right;
+	top: 34%;
+	left: -20%;
+	z-index: 1;
+}
+
+.third-card-arrow {
+	width: 100%;
+	min-height: 150px;
+	background-image: url("assets/patterns/left-downward-arrow.svg");
+	background-repeat: no-repeat;
+	bottom: 27%;
+	left: 34%;
+	z-index: 1;
 }
 
 @media (min-width: 768px) {
