@@ -10,6 +10,19 @@
 
 /* Typography */
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Space Mono", sans-serif;
+}
+
+p {
+	font-family: "Lexend Deca", sans-serif;
+	font-weight: 400;
+}
+
 .space-mono-regular {
 	font-family: "Space Mono", monospace;
 	font-weight: 400;
@@ -133,6 +146,9 @@ section {
 .right-arrow {
 	right: 55%;
 	bottom: 5%;
+}
+
+.card-body h2 {
 }
 
 @media (min-width: 768px) {
