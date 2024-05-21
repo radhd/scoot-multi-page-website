@@ -284,13 +284,27 @@ section {
 		top: 15%;
 	}
 
-	/* .second-card-arrow {
-		top: 0;
-		left: -60%;
+	.card-white-circle {
+		min-height: 445px;
+		left: 100%;
 	}
-	
+
+	.card-white-circle-left {
+		min-height: 445px;
+		right: 100%;
+	}
+
+	.first-card-arrow {
+		bottom: 10%;
+		left: 50%;
+	}
+
+	.second-card-arrow {
+		left: -18%;
+	}
+
 	.third-card-arrow {
-		top: 0;
-		left: 30%;
-	} */
+		top: 15%;
+		left: 80%;
+	}
 }
