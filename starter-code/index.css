@@ -151,32 +151,19 @@ section {
 /* Cards  */
 
 .first-card-arrow {
-	width: 100%;
-	min-height: 138px;
-	background-image: url("assets/patterns/left-downward-arrow.svg");
-	background-repeat: no-repeat;
-	top: 6%;
+	bottom: 62%;
 	z-index: 1;
 }
 
 .second-card-arrow {
-	width: 100%;
-	min-height: 138px;
-	background-image: url("assets/patterns/right-arrow.svg");
-	background-repeat: no-repeat;
-	background-position: right;
-	top: 34%;
-	left: -20%;
+	top: 0;
+	left: -60%;
 	z-index: 1;
 }
 
 .third-card-arrow {
-	width: 100%;
-	min-height: 150px;
-	background-image: url("assets/patterns/left-downward-arrow.svg");
-	background-repeat: no-repeat;
-	bottom: 27%;
-	left: 34%;
+	top: 0;
+	left: 30%;
 	z-index: 1;
 }
 
@@ -218,6 +205,35 @@ section {
 		left: 18%;
 		top: -22%;
 		z-index: -1;
+	}
+
+	/* Card Section */
+	.section-card-image {
+		height: 445px;
+		width: auto;
+	}
+
+	.card-white-circle {
+		min-height: 445px;
+		left: 95%;
+	}
+
+	.card-white-circle-left {
+		min-height: 445px;
+		right: 95%;
+	}
+
+	.first-card-arrow {
+		bottom: 50%;
+	}
+
+	.second-card-arrow {
+		right: 35%;
+	}
+
+	.third-card-arrow {
+		top: 10%;
+		left: 50%;
 	}
 }
 
@@ -267,4 +283,14 @@ section {
 		left: 0%;
 		top: 15%;
 	}
+
+	/* .second-card-arrow {
+		top: 0;
+		left: -60%;
+	}
+	
+	.third-card-arrow {
+		top: 0;
+		left: 30%;
+	} */
 }
