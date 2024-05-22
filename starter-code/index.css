@@ -167,6 +167,36 @@ section {
 	z-index: 1;
 }
 
+/* Downloads */
+
+.downloads {
+	background-color: var(--custom-dark-navy);
+}
+
+.downloads h2 {
+	font-size: 2rem;
+	line-height: 32px;
+	letter-spacing: -1.4285714626312256px;
+	font-weight: 700;
+	padding-bottom: 2.5rem;
+}
+
+.app-store {
+	width: 113.58px;
+}
+
+.google-play {
+	width: 130px;
+}
+
+.downloads-semi-circles {
+	/* background-image: url("assets/patterns/semi-circles.svg");
+	height: 150px;
+	background-position: right; */
+	top: 50%;
+	right: -47%;
+}
+
 @media (min-width: 768px) {
 	.px-section {
 		padding: 0 6.0625rem;
