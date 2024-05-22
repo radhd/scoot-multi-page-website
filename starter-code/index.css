@@ -190,9 +190,6 @@ section {
 }
 
 .downloads-semi-circles {
-	/* background-image: url("assets/patterns/semi-circles.svg");
-	height: 150px;
-	background-position: right; */
 	top: 50%;
 	right: -47%;
 }
@@ -265,6 +262,11 @@ section {
 		top: 10%;
 		left: 50%;
 	}
+
+	.downloads-semi-circles {
+		top: 40%;
+		right: -20%;
+	}
 }
 
 @media (min-width: 1440px) {
@@ -336,5 +338,33 @@ section {
 	.third-card-arrow {
 		top: 15%;
 		left: 80%;
+	}
+
+	/* Downloads section */
+
+	.downloads-bg {
+		padding: 102px 165px !important;
+	}
+
+	.downloads-bg h2 {
+		width: 415px;
+		height: 96px;
+		font-size: 3rem;
+		line-height: 48px;
+		letter-spacing: -2.142857074737549px;
+		text-align: left;
+	}
+
+	.app-store {
+		width: 159px;
+	}
+
+	.google-play {
+		width: 182px;
+	}
+
+	.downloads-semi-circles {
+		top: 60%;
+		right: -10%;
 	}
 }
