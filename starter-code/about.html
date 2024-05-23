@@ -1,105 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="index.js" defer></script>
+    <title>Scoot Homepage</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-white">
+      <div class="container px-4">
+        <button
+          class="navbar-toggler"
+          role="button"
+          data-bs-toggle="offcanvas"
+          style="border: none; box-shadow: none"
+          data-bs-target="#navbarCanvas"
+          id="burgerMenu"
+        >
+          <img src="assets/icons/hamburger.svg" alt="" />
+        </button>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Scoot About</title>
-</head>
-<body>
+        <a href="#" class="navbar-brand mb-2"
+          ><img src="assets/logo.svg" height="20px" alt=""
+        /></a>
 
-  About
-  Location
-  Careers
+        <div
+          class="offcanvas offcanvas-start text-bg-dark"
+          tabindex="-1"
+          id="navbarCanvas"
+          aria-labelledby="offcanvasLabel"
+        >
+          <div class="offcanvas-body d-flex flex-column flex-md-row px-4">
+            <ul class="navbar-nav flex-grow-1 gap-md">
+              <li class="nav-item">
+                <a href="" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Location</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Careers</a>
+              </li>
+            </ul>
 
-  Get Scootin
+            <button
+              style="color: white"
+              class="btn btn-warning btn-border-no-radius p-2"
+            >
+              Get Scootin
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <!-- Hero Section -->
+      <section
+        id="hero-about"
+        class="text-center position-relative d-grid d-md-flex overflow-hidden"
+      >
+        <h1 class="text-white my-auto ms-md-5 display-2 space-mono-bold">
+          About
+        </h1>
+        <div class="position-absolute white-circles">
+          <img src="assets/patterns/white-circles.svg" alt="" />
+        </div>
+      </section>
+      <!-- About Cards Section -->
+      <section class="position-relative overflow-hidden">
+        <!-- section-cards-wrapper -->
 
-
-
-  About
-
-
-
-  Mobility for the digital era
-
-  Getting around should be simple (and even fun!) for everyone. We embrace technology to 
-  provide low cost, smart access to scooters at your fingertips.
-
-  Better urban living
-
-  We’re helping connect cities and bring people closer together. Our scooters are also 
-  fully-electric and we offset the minimal carbon footprint for each ride.
-
-
-
-  Our values
-
-  01
-  Our tech
-  We’re using cutting edge technology to drive accessible urban transportation forward. 
-  Our fully electric scooters are a joy to ride!
-
-  02
-  Our integrity
-  We are fully committed to deliver a great yet safe, sustainable micro-mobility experience 
-  in every city we serve.
-
-  03
-  Our community
-  We support every community we serve. All workers are paid a living wage based on their 
-  location and are Scoot employees.
-
-
-
-  FAQs
-
-  How it works
-
-  How do I download the app?
-
-  To download the Scoot app, you can search “Scoot” in both the App and Google Play stores. 
-  An even simpler way to do it would be to click the relevant link at the bottom of this 
-  page and you’ll be re-directed to the correct page.
-
-  Can I find a nearby Scoots?
-
-  Definitely! Simply open up the app and allow us to find your location while using it. We'll 
-  show you all of the closest Scoots and some extra useful information. 
-
-  Do I need a license to ride?
-
-  Yup! We provide information inside the app regarding local laws and the license you need to be 
-  able to ride our Scoots.
-
-  Safe driving
-
-  Should I wear a helmet?
-
-  Yes, please do! All cities have different laws. But we strongly strongly strongly recommend 
-  always wearing a helmet regardless of the local laws. We like you and we want you to be as 
-  safe as possible while Scooting.
-
-  How about the rules & regulations?
-
-  Now is not the time to be a rule breaker. Be sure you're complying with all local laws and 
-  regulations. Also, just be a good human being. Be sure not to park your Scoot where it can 
-  block access to buildings or get in people's way.
-
-  What if I damage my Scoot?
-
-  Be sure to read our terms and conditions carefully. Not the most fun job we know but we make 
-  it as clear as possible. There's an option to add insurance for each trip, or you can sign 
-  up for annual insurance if you're a regular Scooter.
-
-  Sign up and Scoot off today
-
-
-
-  About
-  Location
-  Careers
-
-</body>
+        <div class="px-3 mx-3 px-md-5 mx-md-5">
+          <!-- Card 1 -->
+          <div
+            class="card border-0 text-center text-lg-start pb-5 mb-5 px-lg-5 mx-lg-3"
+          >
+            <div class="row g-0 g-lg-5">
+              <div class="col-lg-5 order-lg-2">
+                <img
+                  src="assets/images/digital-era.jpg"
+                  class="card-img-top rounded-circle section-card-image"
+                  alt="Woman watching the mobile"
+                />
+                <div class="first-card-arrow position-absolute">
+                  <img src="assets/patterns/left-downward-arrow.svg" alt="" />
+                </div>
+                <div
+                  class="d-none d-md-block card-white-circle position-absolute top-0"
+                >
+                  <img src="assets/patterns/circle.svg" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="card-body px-0">
+                  <h2
+                    class="card-title display-4 fw-bold pt-5 mt-2 pb-4"
+                    style="letter-spacing: -1.4285714626312256px"
+                  >
+                    Mobility for the digital era
+                  </h2>
+                  <p class="card-text text-secondary">
+                    Getting around should be simple (and even fun!) for
+                    everyone. We embrace technology to provide low cost, smart
+                    access to scooters at your fingertips.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 1 End -->
+          <!-- Card 2  -->
+          <div
+            class="card border-0 text-center text-lg-start pb-5 mb-5 px-lg-5 mx-lg-3"
+          >
+            <div class="row g-0 g-lg-5">
+              <div class="col-lg-5 order-lg-0">
+                <img
+                  src="assets/images/better-living.jpg"
+                  class="card-img-top rounded-circle section-card-image"
+                  alt="City view"
+                />
+                <div class="second-card-arrow position-absolute">
+                  <img
+                    src="assets/patterns/right-arrow.svg"
+                    alt="Yellow arrow pointing on the right side"
+                  />
+                </div>
+                <div
+                  class="d-none d-md-block card-white-circle-left position-absolute top-0"
+                >
+                  <img src="assets/patterns/circle.svg" alt="Gray circle" />
+                </div>
+              </div>
+              <div class="ps-lg-5 col-lg-7">
+                <div class="card-body px-0">
+                  <h2
+                    class="card-title display-4 fw-bold pt-5 mt-2 pb-4"
+                    style="letter-spacing: -1.4285714626312256px"
+                  >
+                    Better urban living
+                  </h2>
+                  <p class="card-text text-secondary">
+                    We’re helping connect cities and bring people closer
+                    together. Our scooters are also fully-electric and we offset
+                    the minimal carbon footprint for each ride.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 End -->
+        </div>
+      </section>
+      <!-- Our Values -->
+      <section class="px-3 mx-3">
+        <div></div>
+      </section>
+    </main>
+    <footer class="bg-dark">
+      <div
+        class="px-5 mx-5 pt-5 pb-5 d-flex justify-content-center align-items-center flex-column flex-md-row justify-content-md-start px-md-4 py-md-3 m-md-0 px-lg-5 mx-lg-5"
+      >
+        <div class="pb-4 p-md-0">
+          <img
+            style="filter: invert(100%) brightness(1000%) saturate(100%)"
+            src="assets/logo.svg"
+            alt=""
+          />
+        </div>
+        <ul class="d-grid gap-3 text-center p-0 m-0 d-md-flex ps-md-5">
+          <li><a href="">About</a></li>
+          <li><a href="">Location</a></li>
+          <li><a href="">Careers</a></li>
+        </ul>
+        <ul class="d-flex gap-4 pt-5 px-0 mx-0 p-md-0 m-md-0 ms-md-auto">
+          <li>
+            <a href=""><img src="assets/icons/facebook.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="assets/icons/twitter.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="assets/icons/instagram.svg" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>

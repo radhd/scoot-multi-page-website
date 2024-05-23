@@ -1,11 +1,11 @@
 /* Colors */
 :root {
-	--custom-yellow: rgb(252, 183, 43);
-	--custom-dark-navy: rgb(73, 85, 103);
-	--custom-dim-grey: rgb(147, 156, 170);
-	--custom-light-grey: rgb(229, 236, 244);
-	--custom-snow: rgb(242, 245, 249);
-	--custom-light-yellow: rgb(255, 244, 223);
+  --custom-yellow: rgb(252, 183, 43);
+  --custom-dark-navy: rgb(73, 85, 103);
+  --custom-dim-grey: rgb(147, 156, 170);
+  --custom-light-grey: rgb(229, 236, 244);
+  --custom-snow: rgb(242, 245, 249);
+  --custom-light-yellow: rgb(255, 244, 223);
 }
 
 /* Typography */
@@ -15,374 +15,399 @@ h2,
 h3,
 h4,
 h5 {
-	font-family: "Space Mono", sans-serif;
+  font-family: "Space Mono", sans-serif;
 }
 
 p {
-	font-family: "Lexend Deca", sans-serif;
-	font-weight: 400;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
 }
 
 .space-mono-regular {
-	font-family: "Space Mono", monospace;
-	font-weight: 400;
-	font-style: normal;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .space-mono-bold {
-	font-family: "Space Mono", monospace;
-	font-weight: 700;
-	font-style: normal;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .h-text-size-h1-sm {
-	font-family: "Space Mono", monospace;
-	font-size: 2.5rem;
-	line-height: 40px;
-	letter-spacing: -1.7857142686843872px;
-	text-align: center;
+  font-family: "Space Mono", monospace;
+  font-size: 2.5rem;
+  line-height: 40px;
+  letter-spacing: -1.7857142686843872px;
+  text-align: center;
 }
 
 .h-text-size-h2 {
-	font-family: "Space Mono", sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 3rem;
-	line-height: 48px;
-	letter-spacing: -2.14px;
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+  line-height: 48px;
+  letter-spacing: -2.14px;
 }
 
 .h-text-size-h3 {
-	font-family: "Space Mono", sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	line-height: 48px;
-	letter-spacing: -1.79px;
-	color: var(--custom-dark-navy);
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 48px;
+  letter-spacing: -1.79px;
+  color: var(--custom-dark-navy);
 }
 
 .h-text-size-h4 {
-	font-family: "Space Mono", sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 1.5rem;
-	line-height: 28px;
-	letter-spacing: -1.07px;
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 28px;
+  letter-spacing: -1.07px;
 }
 
 .lexend-deca-400 {
-	font-family: "Lexend Deca", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: 400;
-	font-style: normal;
-	line-height: 25px;
-	font-size: 0.9375rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 25px;
+  font-size: 0.9375rem;
 }
 
 /* Navigation */
 
 .btn-border-no-radius {
-	border-radius: 0;
+  border-radius: 0;
 }
 
 #navbarCanvas {
-	width: 70%;
-	top: 10%;
+  width: 70%;
+  top: 10%;
 }
 
 .offcanvas-backdrop {
-	top: 10%;
+  top: 10%;
 }
 
 .show a {
-	color: white;
+  color: white;
 }
 
 /* Hero */
 
 #hero {
-	background-image: url("assets/images/home-hero-mobile.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	min-height: 650px;
-	overflow: hidden;
+  background-image: url("assets/images/home-hero-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 650px;
+  overflow: hidden;
 }
 
 /* Sections */
 
 section {
-	margin-bottom: 7.5rem;
+  margin-bottom: 7.5rem;
 }
 
 .p-32 {
-	padding: 0 2rem;
+  padding: 0 2rem;
 }
 
 .px-section {
-	padding: 0 2rem;
+  padding: 0 2rem;
 }
 
 /* Button hover */
 
 .btn-brand {
-	margin-top: 2.125rem;
+  margin-top: 2.125rem;
 }
 
 .get-scootin-btn {
-	width: 180px;
-	height: 53px;
+  width: 180px;
+  height: 53px;
 }
 
 .btn.btn-warning:hover {
-	background-color: transparent !important;
-	color: var(--custom-yellow) !important;
+  background-color: transparent !important;
+  color: var(--custom-yellow) !important;
 }
 
 .white-circles {
-	display: none;
+  display: none;
 }
 
 .right-arrow {
-	right: 55%;
-	bottom: 5%;
+  right: 55%;
+  bottom: 5%;
 }
 
 /* Cards  */
 
 .first-card-arrow {
-	bottom: 62%;
-	z-index: 1;
+  bottom: 62%;
+  z-index: 1;
 }
 
 .second-card-arrow {
-	top: 0;
-	left: -60%;
-	z-index: 1;
+  top: 0;
+  left: -60%;
+  z-index: 1;
 }
 
 .third-card-arrow {
-	top: 0;
-	left: 30%;
-	z-index: 1;
+  top: 0;
+  left: 30%;
+  z-index: 1;
 }
 
 /* Downloads */
 
 .downloads {
-	background-color: var(--custom-dark-navy);
+  background-color: var(--custom-dark-navy);
 }
 
 .downloads h2 {
-	font-size: 2rem;
-	line-height: 32px;
-	letter-spacing: -1.4285714626312256px;
-	font-weight: 700;
-	padding-bottom: 2.5rem;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: -1.4285714626312256px;
+  font-weight: 700;
+  padding-bottom: 2.5rem;
 }
 
 .app-store {
-	width: 113.58px;
+  width: 113.58px;
 }
 
 .google-play {
-	width: 130px;
+  width: 130px;
 }
 
 .downloads-semi-circles {
-	top: 50%;
-	right: -47%;
+  top: 50%;
+  right: -47%;
 }
 
 /* footer */
 
 footer a {
-	text-decoration: none;
-	color: var(--custom-dim-grey);
-	font-family: "Space Mono" monospace;
-	font-weight: 700;
-	line-height: 25px;
-	text-align: left;
+  text-decoration: none;
+  color: var(--custom-dim-grey);
+  font-family: "Space Mono" monospace;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
 }
 
 footer ul li {
-	list-style-type: none;
-	color: red;
-	padding: 0;
-	margin: 0;
+  list-style-type: none;
+  color: red;
+  padding: 0;
+  margin: 0;
+}
+
+/* =========== ABOUT PAGE ============= */
+
+#hero-about {
+  background-image: url("assets/images/about-hero-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 160px;
 }
 
 @media (min-width: 768px) {
-	.px-section {
-		padding: 0 6.0625rem;
-	}
+  .px-section {
+    padding: 0 6.0625rem;
+  }
 
-	.gap-md {
-		gap: 2rem;
-	}
+  .gap-md {
+    gap: 2rem;
+  }
 
-	#hero {
-		background-image: url("assets/images/home-hero-tablet.jpg");
-	}
+  #hero {
+    background-image: url("assets/images/home-hero-tablet.jpg");
+  }
 
-	.p-32 {
-		padding: 0 4.5625rem;
-	}
+  .p-32 {
+    padding: 0 4.5625rem;
+  }
 
-	.h-text-size-h1-sm {
-		font-size: 3.5rem;
-	}
+  .h-text-size-h1-sm {
+    font-size: 3.5rem;
+  }
 
-	.white-circles {
-		display: block;
-		width: 234px;
-		height: 63px;
-		right: -4%;
-		bottom: 7%;
-	}
+  .white-circles {
+    display: block;
+    width: 234px;
+    height: 63px;
+    right: -4%;
+    bottom: 7%;
+  }
 
-	/* Gray line in pick section */
+  /* Gray line in pick section */
 
-	.dark-gray-line {
-		width: 15px;
-		height: 513px;
-		background-color: #e5ecf4;
-		left: 18%;
-		top: -22%;
-		z-index: -1;
-	}
+  .dark-gray-line {
+    width: 15px;
+    height: 513px;
+    background-color: #e5ecf4;
+    left: 18%;
+    top: -22%;
+    z-index: -1;
+  }
 
-	/* Card Section */
-	.section-card-image {
-		height: 445px;
-		width: auto;
-	}
+  /* Card Section */
+  .section-card-image {
+    height: 445px;
+    width: auto;
+  }
 
-	.card-white-circle {
-		min-height: 445px;
-		left: 95%;
-	}
+  .card-white-circle {
+    min-height: 445px;
+    left: 95%;
+  }
 
-	.card-white-circle-left {
-		min-height: 445px;
-		right: 95%;
-	}
+  .card-white-circle-left {
+    min-height: 445px;
+    right: 95%;
+  }
 
-	.first-card-arrow {
-		bottom: 50%;
-	}
+  .first-card-arrow {
+    bottom: 50%;
+  }
 
-	.second-card-arrow {
-		right: 35%;
-	}
+  .second-card-arrow {
+    right: 35%;
+  }
 
-	.third-card-arrow {
-		top: 10%;
-		left: 50%;
-	}
+  .third-card-arrow {
+    top: 10%;
+    left: 50%;
+  }
 
-	.downloads-semi-circles {
-		top: 40%;
-		right: -20%;
-	}
+  .downloads-semi-circles {
+    top: 40%;
+    right: -20%;
+  }
+
+  /* ======== ABOUT PAGE ======= */
+  /* About - Hero */
+
+  #hero-about {
+    background-image: url("assets/images/about-hero-tablet.jpg");
+    min-height: 200px;
+  }
 }
 
 @media (min-width: 1440px) {
-	#hero {
-		background-image: url("assets/images/home-hero-desktop.jpg");
-		background-position: right;
-	}
+  #hero {
+    background-image: url("assets/images/home-hero-desktop.jpg");
+    background-position: right;
+  }
 
-	.yellow-line {
-		margin-bottom: -5%;
-	}
+  .yellow-line {
+    margin-bottom: -5%;
+  }
 
-	.right-arrow {
-		left: 47%;
-		bottom: 24%;
-	}
+  .right-arrow {
+    left: 47%;
+    bottom: 24%;
+  }
 
-	.white-circles {
-		display: block;
-		right: -3.5%;
-		bottom: 25%;
-	}
+  .white-circles {
+    display: block;
+    right: -3.5%;
+    bottom: 25%;
+  }
 
-	.hero-main-text {
-		text-align: start;
-		margin-top: 60px;
-	}
+  .hero-main-text {
+    text-align: start;
+    margin-top: 60px;
+  }
 
-	.hero-main-text h1 {
-		text-align: start;
-		width: 500px;
-		height: 112px;
-		margin-left: -10%;
-	}
+  .hero-main-text h1 {
+    text-align: start;
+    width: 500px;
+    height: 112px;
+    margin-left: -10%;
+  }
 
-	.hero-main-text p {
-		width: 400px;
-		height: 100px;
-		font-size: 0, 9375rem;
-		margin-left: -3%;
-	}
+  .hero-main-text p {
+    width: 400px;
+    height: 100px;
+    font-size: 0, 9375rem;
+    margin-left: -3%;
+  }
 
-	.dark-gray-line {
-		width: 974px;
-		height: 15px;
-		left: 0%;
-		top: 15%;
-	}
+  .dark-gray-line {
+    width: 974px;
+    height: 15px;
+    left: 0%;
+    top: 15%;
+  }
 
-	.card-white-circle {
-		min-height: 445px;
-		left: 100%;
-	}
+  .card-white-circle {
+    min-height: 445px;
+    left: 100%;
+  }
 
-	.card-white-circle-left {
-		min-height: 445px;
-		right: 100%;
-	}
+  .card-white-circle-left {
+    min-height: 445px;
+    right: 100%;
+  }
 
-	.first-card-arrow {
-		bottom: 10%;
-		left: 50%;
-	}
+  .first-card-arrow {
+    bottom: 10%;
+    left: 50%;
+  }
 
-	.second-card-arrow {
-		left: -18%;
-	}
+  .second-card-arrow {
+    left: -18%;
+  }
 
-	.third-card-arrow {
-		top: 15%;
-		left: 80%;
-	}
+  .third-card-arrow {
+    top: 15%;
+    left: 80%;
+  }
 
-	/* Downloads section */
+  /* Downloads section */
 
-	.downloads-bg {
-		padding: 102px 165px !important;
-	}
+  .downloads-bg {
+    padding: 102px 165px !important;
+  }
 
-	.downloads-bg h2 {
-		width: 415px;
-		height: 96px;
-		font-size: 3rem;
-		line-height: 48px;
-		letter-spacing: -2.142857074737549px;
-		text-align: left;
-	}
+  .downloads-bg h2 {
+    width: 415px;
+    height: 96px;
+    font-size: 3rem;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: left;
+  }
 
-	.app-store {
-		width: 159px;
-	}
+  .app-store {
+    width: 159px;
+  }
 
-	.google-play {
-		width: 182px;
-	}
+  .google-play {
+    width: 182px;
+  }
 
-	.downloads-semi-circles {
-		top: 60%;
-		right: -10%;
-	}
+  .downloads-semi-circles {
+    top: 60%;
+    right: -10%;
+  }
+
+  /* ======== ABOUT PAGE ======= */
+  /* About - Hero */
+
+  #hero-about {
+    background-image: url("assets/images/about-hero-desktop.jpg");
+  }
 }
