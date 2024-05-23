@@ -234,6 +234,9 @@ footer ul li {
   border-radius: 50%;
 }
 
+/* About - Section - Accordion */
+/* Bootstrap design of accordion */
+
 @media (min-width: 768px) {
   .px-section {
     padding: 0 6.0625rem;
