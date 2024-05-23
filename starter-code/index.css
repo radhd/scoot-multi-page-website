@@ -222,6 +222,18 @@ footer ul li {
   min-height: 160px;
 }
 
+/* About - Section - Our values */
+
+.about-yellow-value-circle-first {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  background-color: var(--custom-yellow);
+  top: 192px;
+  left: 105px;
+  border-radius: 50%;
+}
+
 @media (min-width: 768px) {
   .px-section {
     padding: 0 6.0625rem;
@@ -302,6 +314,12 @@ footer ul li {
   #hero-about {
     background-image: url("assets/images/about-hero-tablet.jpg");
     min-height: 200px;
+  }
+  /* About - Section - Our values */
+
+  .about-yellow-value-circle-first {
+    top: 192px;
+    left: 245px;
   }
 }
 
@@ -409,5 +427,11 @@ footer ul li {
 
   #hero-about {
     background-image: url("assets/images/about-hero-desktop.jpg");
+  }
+
+  /* About - Section - Our values */
+
+  .about-yellow-value-circle-first {
+    left: 150px;
   }
 }
