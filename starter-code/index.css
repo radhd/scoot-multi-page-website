@@ -259,8 +259,6 @@ footer ul li {
   min-height: 160px;
 }
 
-
-
 @media (min-width: 768px) {
   .px-section {
     padding: 0 6.0625rem;
@@ -353,6 +351,9 @@ footer ul li {
   #hero-careers {
     background-image: url("assets/images/careers-locations-hero-tablet.jpg");
     min-height: 200px;
+  }
+  .careers-world-map-img {
+    content: url("assets/images/world-map-tablet.png");
   }
 }
 
@@ -473,5 +474,8 @@ footer ul li {
   /* Careers Section Hero */
   #hero-careers {
     background-image: url("assets/images/careers-locations-hero-desktop.jpg");
+  }
+  .careers-world-map-img {
+    content: url("assets/images/world-map-desktop.png");
   }
 }

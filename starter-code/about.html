@@ -25,7 +25,7 @@
     <script src="index.js" defer></script>
     <title>Scoot - About</title>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example" tabindex="0">
     <nav class="navbar navbar-expand-md bg-white">
       <div class="container px-4">
         <button
@@ -39,7 +39,7 @@
           <img src="assets/icons/hamburger.svg" alt="" />
         </button>
 
-        <a href="#" class="navbar-brand mb-2"
+        <a href="index.html" class="navbar-brand mb-2"
           ><img src="assets/logo.svg" height="20px" alt=""
         /></a>
 
@@ -52,22 +52,24 @@
           <div class="offcanvas-body d-flex flex-column flex-md-row px-4">
             <ul class="navbar-nav flex-grow-1 gap-md">
               <li class="nav-item">
-                <a href="" class="nav-link">About</a>
+                <a href="about.html" class="nav-link">About</a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Location</a>
+                <a href="locations.html" class="nav-link">Location</a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Careers</a>
+                <a href="careers.html" class="nav-link">Careers</a>
               </li>
             </ul>
 
-            <button
-              style="color: white"
-              class="btn btn-warning btn-border-no-radius p-2"
-            >
-              Get Scootin
-            </button>
+            <a href="#app-download-section">
+              <button
+                style="color: white"
+                class="btn btn-warning btn-border-no-radius p-2"
+              >
+                Get Scootin
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -516,7 +518,12 @@
         </div>
       </section>
       <!-- Download section -->
-      <section class="downloads position-relative p-0 m-0 overflow-hidden">
+      <section
+        id="app-download-section"
+        class="downloads position-relative p-0 m-0 overflow-hidden"
+        data-bs-spy="scroll"
+        data-bs-target="#"
+      >
         <div class="downloads-semi-circles position-absolute">
           <img src="assets/patterns/semi-circles.svg" alt="" />
         </div>
